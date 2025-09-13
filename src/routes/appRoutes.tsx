@@ -1,9 +1,9 @@
-// src/routes/index.tsx
+// src/routes/appRoutes.tsx
 import { createBrowserRouter } from "react-router-dom";
 import App from "@/App";
 import Body from "@/routes/Body";
-import IssueForm from "@/components/IssueForm.tsx";
-import CityReportsPage from "@/pages/CityReportsPage";
+import IssueForm from "@/components/IssueForm";
+import CityReportsPage from "@/routes/CityReportsPage";
 
 export const appRoutes = createBrowserRouter([
     {
