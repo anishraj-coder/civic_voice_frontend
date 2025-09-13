@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "@/App";
 import Body from "@/routes/Body";
 import IssueForm from "@/components/IssueForm";
-import CityReportsPage from "@/routes/CityReportsPage";
+import CityReportsPage from "@/pages/CityReportsPage";
 
 export const appRoutes = createBrowserRouter([
     {
